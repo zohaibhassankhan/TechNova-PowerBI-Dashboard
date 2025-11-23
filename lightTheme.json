@@ -1,0 +1,63 @@
+{
+  "name": "TechNova Light",
+  "dataColors": ["#22c55e", "#0ea5e9", "#3b82f6", "#a855f7", "#f59e0b"],
+  "background": "#ffffff",
+  "foreground": "#111111",
+  "tableAccent": "#0ea5e9",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "titleText": [
+          {
+            "color": { "solid": { "color": "#111111" } },
+            "fontSize": 12,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "labels": [
+          {
+            "color": { "solid": { "color": "#111111" } },
+            "fontSize": 11
+          }
+        ],
+        "value": [
+          {
+            "color": { "solid": { "color": "#111111" } },
+            "fontSize": 13
+          }
+        ],
+        "background": [{ "color": { "solid": { "color": "#ffffff" } } }],
+        "border": [{ "color": { "solid": { "color": "#e5e7eb" } } }],
+        "shadow": [{ "show": true }]
+      }
+    },
+    "card": {
+      "*": {
+        "titleText": [
+          {
+            "color": { "solid": { "color": "#111111" } },
+            "fontSize": 12
+          }
+        ],
+        "labels": [
+          {
+            "color": { "solid": { "color": "#111111" } }
+          }
+        ],
+        "calloutValue": [
+          {
+            "color": { "solid": { "color": "#111111" } },
+            "fontSize": 26
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#f9fafb" } } }],
+        "foreground": [{ "color": { "solid": { "color": "#111111" } } }],
+        "border": [{ "color": { "solid": { "color": "#e5e7eb" } } }]
+      }
+    }
+  }
+}

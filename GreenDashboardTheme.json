@@ -1,0 +1,22 @@
+{
+  "name": "Soft Green Financial Theme",
+  "dataColors": [
+    "#2F7E55", "#68B684", "#B2DEC1", "#D9EEE2", "#A0D7BA"
+  ],
+  "background": "#F2FBF5",
+  "foreground": "#2F2F2F",
+  "tableAccent": "#2F7E55",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "color": [{ "solid": { "color": "#2F2F2F" } }],
+        "fontFamily": [{ "value": "Segoe UI" }]
+      },
+      "titleText": [{
+        "fontSize": 12,
+        "color": { "solid": { "color": "#2F2F2F" } },
+        "fontFamily": { "value": "Segoe UI" }
+      }]
+    }
+  }
+}
